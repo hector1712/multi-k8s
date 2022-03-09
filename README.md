@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # multi-docker
 
 Creacion de Repo, multi pagina docker
+=======
+# multi-k8s
+
+Implementacion de k8s usando google cloud, y servicio complex
+>>>>>>> 780e7cc7a03ca2e7ea71a9ed6af0dabfb338f427
 
 ## Getting started
 
@@ -15,14 +21,22 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
+<<<<<<< HEAD
 git remote add origin https://gitlab.com/hjgalaviz/multi-docker.git
+=======
+git remote add origin https://gitlab.com/hjgalaviz/multi-k8s.git
+>>>>>>> 780e7cc7a03ca2e7ea71a9ed6af0dabfb338f427
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
+<<<<<<< HEAD
 - [ ] [Set up project integrations](https://gitlab.com/hjgalaviz/multi-docker/-/settings/integrations)
+=======
+- [ ] [Set up project integrations](https://gitlab.com/hjgalaviz/multi-k8s/-/settings/integrations)
+>>>>>>> 780e7cc7a03ca2e7ea71a9ed6af0dabfb338f427
 
 ## Collaborate with your team
 
