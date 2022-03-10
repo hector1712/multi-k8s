@@ -1,8 +1,6 @@
-FROM node:14.4.0-alpine
+FROM node:14.14.0-alpine
 WORKDIR "/app"
 COPY ./package.json ./
-RUN npm install -g npm@8.5.1
-RUN npm install -g create-react-app
-RUN npm install --save react react-dom
+RUN npm install
 COPY . .
 CMD ["npm", "run", "start"]

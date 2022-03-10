@@ -2,6 +2,7 @@ FROM node:alpine
 WORKDIR "/app"
 COPY ./package.json ./
 RUN npm install -g npm@8.5.1
-RUN npm install nodemon --save-dev
+RUN npm install -g create-react-app
+RUN npm install --save react react-dom
 COPY . .
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]
