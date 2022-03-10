@@ -12,6 +12,7 @@ function App() {
         <header className="App-header">
           <h1>Bienvenido a la calculadora</h1>
           <h2>De Fibonaci...</h2>
+          <h6>Version kuebrnetes!</h6>
           <img src={gato} className="App-logo" alt="gato" />
           <Link to="/">Home</Link>
           <Link to="/otherpage">otra pagina</Link>

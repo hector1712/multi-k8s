@@ -11,7 +11,6 @@ docker push galatole1/multi-server:$SHA
 docker push galatole1/multi-worker:$SHA
 
 kubectl apply -f k8s
-kubectl apply -f k8s/ingress-service.yaml
 
 kubectl set image deployments/server-deployment server=galatole1/multi-server:$SHA
 kubectl set image deployments/client-deployment client=galatole1/multi-client:$SHA
